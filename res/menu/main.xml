@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.DersologSesliDersTurkEdebiyatiTarih.MainActivity" >
+
+  <item
+        android:id="@+id/refresh"
+        android:title="@string/Yenile"
+        android:showAsAction="ifRoom|withText"
+    />
+
+    <item
+        android:id="@+id/update"
+        android:title="@string/Guncelle"
+        android:showAsAction="ifRoom|withText"
+    />
+     <item
+        android:id="@+id/rate"
+        android:title="@string/rateapp"
+        android:showAsAction="ifRoom|withText"
+    />
+</menu>

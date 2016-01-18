@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.furkan.Dersolog.RemoveAdsActivity" >
+
+    <!-- Preference should place its actual preference widget here. -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:textColor="#000000"
+        android:maxLines="2"
+        android:text=" Uygulamamıza Bağış Yaparak Uygulamanın Gelişmesine Destek Olabilirsiniz."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:maxLines="2"
+        android:textColor="#000000"
+        android:text="  Reklamları 3.90 TL&apos;ye Satın Alarak Kaldırabilirsiniz."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout11"
+        android:singleLine="true"
+        android:text=" Reklamları Kaldır"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/abc_dropdownitem_icon_width" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="18dp"
+        android:background="#33CD5F"
+        android:onClick="donateClick"
+        android:text="Ödeme Yap" />
+
+    <TextView
+        android:id="@+id/thankstextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/summary"
+        android:layout_alignBottom="@+id/summary"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000000"
+        android:text="  Uygulamayı Satın Aldığınız İçin Teşekkür Ederiz. Ayrıca uygulamanın gelişmesine destek olmak için bağış yapabilirsiniz." />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/summary"
+        android:layout_marginTop="20dp"
+        android:background="#33CD5F"
+        android:onClick="buyClick"
+        android:text="Satın Al" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/progressBar1"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:text=" Bağış Yap"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/abc_dropdownitem_icon_width" />
+
+</RelativeLayout>

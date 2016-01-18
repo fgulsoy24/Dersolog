@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <screenName name="com.furkan.Dersolog_MainActivity">Anasayfa
+</screenName>
+    <screenName name="com.furkan.Dersolog_SplashScreen">SplashScreen
+</screenName>
+
+    <string name="ga_trackingId">UA-64769214-1</string>
+
+</resources>

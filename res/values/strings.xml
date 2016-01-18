@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Dersolog-Sesli Ders Türk Edebiyatı Tarih</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Ayarlar</string>
+    
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <string name="com.furkan.Dersolog_MainActivity">Anasayfa</string>
+     <string name="Yenile">Yenile</string>
+     
+
+ <string name="buyButton">BuyButton</string>
+    <string name="removeads">Reklamları Ayarları</string> 
+      <string name="Guncelle">Güncelle</string> 
+   <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    <string name="rateapp">Oy Ver</string>
+    <string name="adsoptions">Reklam Ayarları</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="facebook_app_id">866620590101101</string>
+    
+  
+
+</resources>
